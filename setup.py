@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name='django-zipkin-trace-criteo',
-    version='1.0.5',
+    version='1.0.6',
     url='https://github.com/criteo-forks/django-zipkin-trace',
     author='Manatsawin Hanmongkolchai',
     author_email='manatsawin+pypi@gmail.com',
@@ -13,7 +13,7 @@ setup(
     install_requires=[
         'Django',
         'py_zipkin==0.13.0',
-        'requests-futures==0.9.7',
+        'requests-futures>=0.9.7',
         'requests[security]',
         'pyOpenSSL'
     ],
